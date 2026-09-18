@@ -1,0 +1,5 @@
+id,vessel_class,dwt,loa,beam,draft,freight_low_usd_per_t,freight_high_usd_per_t,data_origin
+1,Handysize,35000,180,28,10.5,26,30,synthetic
+2,Supramax,58000,190,32,12.0,23,27,synthetic
+3,Panamax,82000,225,32.3,14.2,20,24,synthetic
+4,Capesize,180000,292,45,18.2,17,21,synthetic

@@ -1,0 +1,7 @@
+id,origin,destination_port_id,distance_nm,typical_transit_days,data_origin
+1,Australia,1,4200,13,assumption
+2,Australia,2,4350,13.5,assumption
+3,Australia,3,4180,12.9,assumption
+4,Australia,4,4260,13.2,assumption
+5,Australia,5,4400,13.7,assumption
+6,Australia,6,4600,14.3,assumption

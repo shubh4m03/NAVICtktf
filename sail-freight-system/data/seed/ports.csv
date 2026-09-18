@@ -1,0 +1,7 @@
+id,name,max_draft,max_loa,handling_capacity_t_per_day,congestion_index,avg_turnaround_days,demurrage_rate_inr_per_day,commodity_support,data_origin
+1,Paradip,18.5,300,45000,55,3.2,850000,"Coking Coal,Iron Ore,Limestone,Other",synthetic
+2,Visakhapatnam,17.0,280,38000,48,3.5,800000,"Coking Coal,Iron Ore,Limestone,Other",synthetic
+3,Gangavaram,18.0,290,40000,40,3.0,820000,"Coking Coal,Iron Ore,Limestone,Other",synthetic
+4,Dhamra,18.0,290,42000,35,2.8,780000,"Coking Coal,Iron Ore,Limestone,Other",synthetic
+5,Gopalpur,15.0,230,25000,30,3.8,700000,"Coking Coal,Iron Ore,Limestone,Other",synthetic
+6,Haldia,12.8,186,22000,65,4.5,900000,"Coking Coal,Iron Ore,Limestone,Other",synthetic
