@@ -18,7 +18,7 @@ export interface IVesselModelProvider {
 
 /**
  * Procedural Commercial Naval Architecture Generator Fallback.
- * Ensures that if high-quality licensed GLB assets are not present,
+ * Ensures that if high-quality GLB assets are not present,
  * an authentic, accurately-proportioned commercial naval architecture model is rendered.
  */
 export class ProceduralVesselModelProvider implements IVesselModelProvider {
@@ -33,12 +33,12 @@ export class ProceduralVesselModelProvider implements IVesselModelProvider {
 
 /**
  * GLTF/GLB Asset Provider Abstraction.
- * Prepared for future licensed CAD/BIM maritime GLB file ingestion.
+ * Prepared for future CAD/BIM maritime GLB file ingestion.
  */
 export class GLTFVesselModelProvider implements IVesselModelProvider {
   private fallbackProvider = new ProceduralVesselModelProvider();
   private modelUrlMap: Record<string, string> = {
-    // Extensible URL mapping for licensed commercial GLTF assets
+    // Extensible URL mapping for commercial GLTF assets
   };
 
   async loadModel(
